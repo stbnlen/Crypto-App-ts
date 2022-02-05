@@ -1,7 +1,8 @@
 import React from 'react';
 
 type Props = {
-  handleSearch: () => void;
+  // eslint-disable-next-line no-unused-vars
+  handleSearch: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
 export const SearchInput: React.FC<Props> = ({ handleSearch }) => {
