@@ -1,7 +1,7 @@
 import React from 'react';
 
 type Props = {
-  handleSearch: () => string;
+  handleSearch: () => void;
 };
 
 export const SearchInput: React.FC<Props> = ({ handleSearch }) => {

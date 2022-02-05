@@ -5,7 +5,7 @@ export const useFetchData = () => {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
 
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setSearch(e.target.value);
   };
 
