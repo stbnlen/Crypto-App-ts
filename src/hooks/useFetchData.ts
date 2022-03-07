@@ -2,8 +2,8 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
 export const useFetchData = () => {
-  const [coins, setCoins] = useState([]);
-  const [search, setSearch] = useState('');
+  const [coins, setCoins] = useState<[]>([]);
+  const [search, setSearch] = useState<string>('');
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setSearch(e.target.value);

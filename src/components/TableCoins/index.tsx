@@ -1,6 +1,6 @@
-import { TableHead } from 'components/TableHead';
+import { TableHead } from '@components/TableHead';
+import { Coin, getFilteredCoins } from '@utils/getFilteredCoins';
 import React from 'react';
-import { Coin, getFilteredCoins } from 'utils/getFilteredCoins';
 
 import { TableBody } from '../TableBody';
 

@@ -1,5 +1,5 @@
+import { Coin } from '@utils/getFilteredCoins';
 import React from 'react';
-import { Coin } from 'utils/getFilteredCoins';
 
 import { CoinRow } from '../CoinRow';
 

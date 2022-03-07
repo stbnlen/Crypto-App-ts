@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import { SearchInput } from '@components/SearchInput';
+import { TableCoins } from '@components/TableCoins';
+import { useFetchData } from '@hooks/useFetchData';
 import React from 'react';
-
-import { SearchInput } from './components/SearchInput';
-import { TableCoins } from './components/TableCoins';
-import { useFetchData } from './hooks/useFetchData';
 
 export const App = () => {
   const { handleSearch, coins, search } = useFetchData();
